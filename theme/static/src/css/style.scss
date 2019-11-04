@@ -96,26 +96,25 @@ $o-kanban-progressbar-height: 20px;*/
 
 //link
 a {
-    /*color: #a1072d;*/
+	/*color: #a1072d;*/
 }
 
 .o_home_menu_background {
-    background: url(/theme/static/src/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #77717e, #d81f24);
-    background-size: cover;
+	background: url(/theme/static/src/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #ffffff, #1507e4);
+	background-size: cover;
 }
-
 .o_home_menu_background:not(.o_home_menu_background_custom) .o_main_navbar {
-    background-color: transparent;
-    border-color: transparent;
+	background-color: transparent;
+	border-color: transparent;
 }
 
 // Colores
 .o_main_navbar {
-    border-bottom: 1px solid #003fa2;
-    background-color: #003fa2;
-    color: white;
+	border-bottom: 1px solid #003fa2;
+	background-color: #003fa2;
+	color: white;
 }
 
 .o_home_menu .o_home_menu_scrollable .o_apps .o_app .o_caption {
-    color: #003fa2;
+	color: #003fa2;
 }
