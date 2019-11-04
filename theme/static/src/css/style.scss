@@ -100,7 +100,7 @@ a {
 }
 
 .o_home_menu_background {
-	background: url(/theme/static/src/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #ffffff, #1507e4);
+	background: url(/theme/static/src/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #ffffff, #ffffff);
 	background-size: cover;
 }
 .o_home_menu_background:not(.o_home_menu_background_custom) .o_main_navbar {
@@ -116,5 +116,9 @@ a {
 }
 
 .o_home_menu .o_home_menu_scrollable .o_apps .o_app .o_caption {
+	color: #003fa2 !important;
+}
+.o_main_navbar > ul > li > a,
+.o_main_navbar > ul > li > label {
 	color: #003fa2;
 }
